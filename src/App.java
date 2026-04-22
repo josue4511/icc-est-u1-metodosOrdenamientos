@@ -19,4 +19,13 @@ public class App {
         mBurbujaAvanzado.sort(false);
         mBurbujaAvanzado.printArreglo();
     }
+    public static void runSeleccion(){
+        MetodoSeleccion  mSeleccion = new MetodoSeleccion();
+        int[] arr = new int[]{1, 10, 7, 9, 0, 1, 3, 4};
+        mSeleccion.printArreglo(arr);
+        mSeleccion.sort(arr);
+        mSeleccion.printArreglo(arr);
+        mSeleccion.sortDes(arr);
+        mSeleccion.printArreglo(arr);
+    }
 }
